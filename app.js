@@ -52,9 +52,9 @@ function handleGuess(correctSpot, userGuess) {
     }
 
 
-totalEl.textContent = totalGuesses;
-winsEl.textContent = correctGuesses;
-lossesEl.textContent = totalGuesses - correctGuesses;
+    totalEl.textContent = totalGuesses;
+    winsEl.textContent = correctGuesses;
+    lossesEl.textContent = totalGuesses - correctGuesses;
 
 }
    
@@ -65,9 +65,9 @@ lossesEl.textContent = totalGuesses - correctGuesses;
     // then if the user guess is correct, increment the correct guesses
     // update the DOM to show this change to the user (including the losses, not tracked directly in state)
 
-    function resetFaces() {
-        shedContainer.classList.remove('face');
-        treeContainer.classList.remove('face');
-        boulderContainer.classList.remove('face');
-    }
+function resetFaces() {
+    shedContainer.classList.remove('face');
+    treeContainer.classList.remove('face');
+    boulderContainer.classList.remove('face');
+}
  
